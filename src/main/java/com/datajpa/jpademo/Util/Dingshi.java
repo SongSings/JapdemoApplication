@@ -1,6 +1,5 @@
 package com.datajpa.jpademo.Util;
 
-import com.datajpa.jpademo.domain.BookRepository;
 import com.datajpa.jpademo.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -13,8 +12,6 @@ import java.text.SimpleDateFormat;
 @Component//Scheduler2Task
 public class Dingshi {
 
-    @Autowired
-    BookRepository bookRepository;
 
     @Autowired
     EmailService emailService;

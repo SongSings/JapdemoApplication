@@ -1,15 +1,17 @@
 package com.datajpa.jpademo;
 
-import com.datajpa.jpademo.web.BookController;
 import org.jboss.logging.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling//启动类启用定时
+//启用eurekaClient
+//@EnableDiscoveryClient
 public class JapdemoApplication extends SpringBootServletInitializer {
 
     static Logger logger = Logger.getLogger(JapdemoApplication.class);
