@@ -7,5 +7,5 @@ import com.datajpa.jpademo.simplefactory.Pizza;
  */
 public interface AbsFactory {
     Pizza CreatePizza(String ordertype) ;
-    public static String val1="33";
+    String val1="33";
 }

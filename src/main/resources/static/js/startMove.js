@@ -44,4 +44,4 @@ function startMove(obj, json, interval, method, fn) {
     }
   };
   step();
-};
+}

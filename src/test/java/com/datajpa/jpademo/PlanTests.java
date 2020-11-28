@@ -70,7 +70,7 @@ public class PlanTests {
         return false;
     }
 
-    private boolean func(int nums[],int numsLength){
+    private boolean func(int[] nums, int numsLength){
         if(numsLength<=1) return true;
         boolean flag = nums[numsLength-1]<=nums[numsLength-2] || nums[numsLength-1]>=nums[numsLength-2];
         if(numsLength==2){
@@ -85,7 +85,7 @@ public class PlanTests {
         //int[]A = new int[]{1,4,4,1};
         //int[]A = new int[]{6,5,4,5};
         int[]A = new int[]{6,5,4,1};
-        System.out.println("result= " + (A.length<=1 ? false : isMonotoneArray(A, new ArrayList<>())));
+        System.out.println("result= " + (A.length > 1 && isMonotoneArray(A, new ArrayList<>())));
     }
 
     //单调数组判定算法

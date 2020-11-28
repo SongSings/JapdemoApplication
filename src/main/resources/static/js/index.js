@@ -136,11 +136,11 @@ window.onload = function () {
       rightControl[0].innerHTML = hour + ' : ' + minute + ' : ' + second;
       rightControl[1].innerHTML = monthArr[month] + '  ' + day + ', ' + year;
       rightControl[2].innerHTML = weekArr[week];
-    };
+    }
 
     function fn(num) {
       return num > 9 ? num : '0' + num;
-    };
+    }
   })(window);
 
   // 右下角琴弦文字
@@ -189,7 +189,7 @@ window.onload = function () {
           aSpan[j].style.position = 'absolute';
         }
       }
-    };
+    }
 
     function animateString() {
       var aSpan = null;
@@ -236,7 +236,7 @@ window.onload = function () {
           }
         };
       }
-    };
+    }
   })(window);
 
   // 框选APP

@@ -127,7 +127,6 @@ public class TestMain {
                 stringMap.put("key1", "val");
             }
         }
-        ;
         log.error(stringMap.isEmpty());
         log.info(Objects.equals("a", "a"));
         for (Map.Entry entry : stringMap.entrySet()) {

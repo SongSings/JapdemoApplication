@@ -19,7 +19,7 @@ import java.nio.file.Paths;
 @RequestMapping(value = "/")
 public class UploadFileController {
 
-    private String UPLOADED_FOLDER  = "D:\\";
+    private final String UPLOADED_FOLDER  = "D:\\";
 
     @GetMapping("/")
     public String index() {

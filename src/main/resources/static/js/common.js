@@ -528,7 +528,7 @@ com.bylaw.p = function (x,y,map,my){
         if (map[y][i]) {
             if (n==0){
                 n++;
-                continue;
+
             }else{
                 if (com.mans[map[y][i]].my!=my) d.push([i,y]);
                 break
@@ -543,7 +543,7 @@ com.bylaw.p = function (x,y,map,my){
         if (map[y][i]) {
             if (n==0){
                 n++;
-                continue;
+
             }else{
                 if (com.mans[map[y][i]].my!=my) d.push([i,y]);
                 break
@@ -558,7 +558,7 @@ com.bylaw.p = function (x,y,map,my){
         if (map[i][x]) {
             if (n==0){
                 n++;
-                continue;
+
             }else{
                 if (com.mans[map[i][x]].my!=my) d.push([x,i]);
                 break
@@ -573,7 +573,7 @@ com.bylaw.p = function (x,y,map,my){
         if (map[i][x]) {
             if (n==0){
                 n++;
-                continue;
+
             }else{
                 if (com.mans[map[i][x]].my!=my) d.push([x,i]);
                 break

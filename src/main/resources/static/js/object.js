@@ -66,7 +66,7 @@ function Dialog(method) {
   this.method = method;
 
   return this.inital();
-};
+}
 Dialog.prototype = {
   createFile: function (title, imgUrl, linkUrl) {
     var self = this;
